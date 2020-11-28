@@ -1,21 +1,4 @@
 # Categories and subcategories for words, translation examples, idioms
-# Categories can follow Dewey Decimal System, or the expanded Universal Decimal Classification (UDC), so only a
-# number is required to be stored, and a single mapping to categories, subcategories, etc, to be used for user
-# interfacing. UDC categories:
-# 0     Science and Knowledge. Organization. Comp sci. Info science. Documentation. Librarianship. Institutions.
-#       Publications.
-# 1     Philosophy, Psychology
-# 2     Religion, Theology
-# 3     Social Sciences
-# 4     [vacant]
-# 5     Mathematics. Natural Sciences
-# 6     Applied Sciences. Medicine, Technology
-# 7     The Arts. Entertainment. Sport
-# 8     Linguistics. Literature
-# 9     Geography. History
-# Most useful will be Pure science (500) so that will be fleshed out more. Other than that, Language can be used
-# as a catch-all for conjunctions, common words, etc; sort of abusing the system but whatever
-# This is hierarchical, so it's important to preserve hierarchy
 
 # I think this will be easier, and sufficient...
 class Category:
@@ -40,4 +23,21 @@ class TimePeriod:
     TWENTYFIRST=5
 
 
-
+# Old
+# Categories can follow Dewey Decimal System, or the expanded Universal Decimal Classification (UDC), so only a
+# number is required to be stored, and a single mapping to categories, subcategories, etc, to be used for user
+# interfacing. UDC categories:
+# 0     Science and Knowledge. Organization. Comp sci. Info science. Documentation. Librarianship. Institutions.
+#       Publications.
+# 1     Philosophy, Psychology
+# 2     Religion, Theology
+# 3     Social Sciences
+# 4     [vacant]
+# 5     Mathematics. Natural Sciences
+# 6     Applied Sciences. Medicine, Technology
+# 7     The Arts. Entertainment. Sport
+# 8     Linguistics. Literature
+# 9     Geography. History
+# Most useful will be Pure science (500) so that will be fleshed out more. Other than that, Language can be used
+# as a catch-all for conjunctions, common words, etc; sort of abusing the system but whatever
+# This is hierarchical, so it's important to preserve hierarchy
