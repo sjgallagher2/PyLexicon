@@ -1,0 +1,38 @@
+{
+  "entry": {
+    "word": "sing. ind. pres. first person, or nom. sing., or masculine nom. sing.",
+    "part_of_speech": "Adj., verb, noun, etc.",
+    "simple_translation": "Simple translation for words without multiple senses.",
+    "category": "<category>",
+    "definition": [
+      {
+        "sense": "First sense",
+        "translation": "Typical translation form",
+        "notes": "Notes here."
+      },
+      {
+        "sense": "Second sense",
+        "translation": "Typical translation form",
+        "notes": "Notes here."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "text": "<quotation>",
+      "source": {
+        "author": "Author",
+        "work": "Work",
+        "year": "yyyy"
+      }
+    },
+    {
+      "text": "<quotation>",
+      "source": {
+        "author": "Author",
+        "work": "Work",
+        "year": "yyyy"
+      }
+    }
+  ]
+}
